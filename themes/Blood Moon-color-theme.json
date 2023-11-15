@@ -1,10 +1,24 @@
 {
     "name": "Blood Moon",
     "colors": {
-        "editor.background": "#1d1d1d",
-        "editor.foreground": "#FFFFFF",
-        "activityBarBadge.background": "#FF0000",
-        "sideBarTitle.foreground": "#FFFFFF",
+        "focusBorder": "#00000000",
+        "foreground": "#ffffff",
+        "selection.background": "#ff000077",
+        "list.activeSelectionBackground": "#FFFFFF22",
+        "list.inactiveSelectionBackground": "#FFFFFF22",
+        // "activityBar.background": "#252526",
+        "statusBar.background": "#00000000",
+        "button.background": "#ff0000ff",
+        "badge.background": "#ff0000ff",
+        // Selection
+        "editor.selectionForeground": "#FFFFFFFF",
+        "editor.selectionBackground": "#FFFFFF44",
+        "editor.inactiveSelectionBackground": "#FFFFFF44",
+        "editor.selectionHighlightBackground": "#FFFFFF22",
+        "editor.selectionHighlightBorder": "#00000000",
+        // Match
+        "editor.wordHighlightBackground": "#00000000",
+        "editor.wordHighlightBorder": "#00000000",
     },
     "tokenColors": [
         {
@@ -25,11 +39,15 @@
                 "keyword.other.attribute",
                 "keyword.other.default",
                 "keyword.other.using",
+                "keyword.directive.preprocessor",
                 "meta.preprocessor",
                 "storage.modifier.specifier",
                 "storage.modifier.virtual",
                 "storage.type",
                 "constant.language",
+                "entity.source.cmake",
+                "keyword.cmake",
+                "storage.modifier.glsl",
             ]
         },
         {
@@ -45,7 +63,7 @@
             "scope": [
                 "entity.name.function.call",
                 "entity.name.function.member",
-                "keyword.operator.cast"
+                "keyword.operator.cast",
             ]
         },
         {
@@ -54,12 +72,14 @@
             },
             "scope": [
                 "entity.name.type",
-                "entity.name.function.definition"
+                "entity.name.function.definition",
+                "storage.source.cmake",
+                "variable.source.cmake",
             ]
         },
         {
             "settings": {
-                "foreground": "#FFDBB9"
+                "foreground": "#cfb092"
             },
             "scope": [
                 "variable",
@@ -69,7 +89,7 @@
         },
         {
             "settings": {
-                "foreground": "#436d30"
+                "foreground": "#85743c"
             },
             "scope": [
                 "comment"
