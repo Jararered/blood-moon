@@ -1,5 +1,5 @@
 # Blood Moon Theme 
 
 Samples:
-![Alt text](/samples/sample1.png?raw=true "Code Sample One)
-![Alt text](/samples/sample2.png?raw=true "Code Sample Two)
+![code sample one](/samples/sample1.png?raw=true)
+![code sample two](/samples/sample2.png?raw=true)
