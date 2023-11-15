@@ -1,0 +1,94 @@
+{
+    "name": "Blood Moon",
+    "colors": {
+        "editor.background": "#1d1d1d",
+        "editor.foreground": "#FFFFFF",
+        "activityBarBadge.background": "#FF0000",
+        "sideBarTitle.foreground": "#FFFFFF",
+    },
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "#FFFFFF"
+            },
+            "scope": []
+        },
+        {
+            "settings": {
+                "foreground": "#FF0000"
+            },
+            "scope": [
+                "entity.other.attribute",
+                "keyword.control",
+                "keyword.operator.functionlike",
+                "keyword.operator.wordlike",
+                "keyword.other.attribute",
+                "keyword.other.default",
+                "keyword.other.using",
+                "meta.preprocessor",
+                "storage.modifier.specifier",
+                "storage.modifier.virtual",
+                "storage.type",
+                "constant.language",
+            ]
+        },
+        {
+            "settings": {
+                "foreground": "#b14700"
+            },
+            "scope": "variable.other.enummember",
+        },
+        {
+            "settings": {
+                "foreground": "#FF6600"
+            },
+            "scope": [
+                "entity.name.function.call",
+                "entity.name.function.member",
+                "keyword.operator.cast"
+            ]
+        },
+        {
+            "settings": {
+                "foreground": "#FFDA38"
+            },
+            "scope": [
+                "entity.name.type",
+                "entity.name.function.definition"
+            ]
+        },
+        {
+            "settings": {
+                "foreground": "#FFDBB9"
+            },
+            "scope": [
+                "variable",
+                "string",
+                "entity.name.namespace",
+            ]
+        },
+        {
+            "settings": {
+                "foreground": "#436d30"
+            },
+            "scope": [
+                "comment"
+            ]
+        },
+        {
+            "settings": {
+                "foreground": "#b28cc4"
+            },
+            "scope": [
+                "constant",
+                "keyword.other.unit",
+            ]
+        },
+        {
+            "settings": {
+                "fontStyle": "italic"
+            },
+            "scope": "variable.parameter",
+        }
+    ]
+}
