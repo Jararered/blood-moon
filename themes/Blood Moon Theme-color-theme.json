@@ -43,6 +43,7 @@
                 "meta.preprocessor",
                 "storage.modifier.specifier",
                 "storage.modifier.virtual",
+                "storage.modifier.static",
                 "storage.type",
                 "constant.language",
                 "entity.source.cmake",
